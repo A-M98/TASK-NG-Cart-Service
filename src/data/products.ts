@@ -5,6 +5,7 @@ export interface Product {
   price: number;
   image: string;
   stock: number;
+  quantity: number;
 }
 
 export const PRODUCTS: Product[] = [
@@ -16,6 +17,7 @@ export const PRODUCTS: Product[] = [
     image:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT649HCUAz0rT0VM6yydKifFbvnT3Cd_MdKQg&s',
     stock: 12,
+    quantity: 0,
   },
   {
     id: 2,
@@ -24,6 +26,7 @@ export const PRODUCTS: Product[] = [
     price: 59.99,
     image: 'https://m.media-amazon.com/images/I/61P7MvyRbUL._AC_SL1500_.jpg',
     stock: 8,
+    quantity: 0,
   },
   {
     id: 3,
@@ -33,6 +36,7 @@ export const PRODUCTS: Product[] = [
     image:
       'https://ziketech.com/cdn/shop/files/ZIKE-6-in-1-USB-C-Hub-for-iPad-Pro-Air-Z39S-2.webp?v=1734594530&width=1445',
     stock: 15,
+    quantity: 0,
   },
   {
     id: 4,
@@ -42,6 +46,7 @@ export const PRODUCTS: Product[] = [
     image:
       'https://images-cdn.ubuy.co.in/633b12488d2edc65997f4c20-smart-watch-bluetooth-smartwatch-touch.jpg',
     stock: 6,
+    quantity: 0,
   },
   {
     id: 5,
@@ -51,5 +56,6 @@ export const PRODUCTS: Product[] = [
     price: 149.95,
     image: 'https://m.media-amazon.com/images/I/71CS2yM-h4L.jpg',
     stock: 1,
+    quantity: 0,
   },
 ];
